@@ -6,7 +6,7 @@ function App() {
   const [newData, setNewData] = useState('');
   const [valid, setValid] = useState(null);
 
-  const API = 'http://localhost:5000';
+  const API = 'https://blockvault-zsln.onrender.com';
 
   const fetchChain = async () => {
     const res = await axios.get(`${API}/chain`);
